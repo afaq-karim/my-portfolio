@@ -14,16 +14,14 @@
           <b-nav-item class="nav-item" href="#contact">{{listItems[4]}}</b-nav-item>
         </b-navbar-nav>
         <b-nav-item class="ml-auto nav-icons">
-          <div class="nav-links">
+          <div class="social-links">
             <div class="social-icons">
-              <font-awesome-icon href :icon="['fab', 'facebook-f']"/>
+              <font-awesome-icon :icon="['fab', 'facebook-f']"/>
             </div>
             <div class="social-icons">
-              <a href="instagram:karim_afaq"/>
               <font-awesome-icon :icon="['fab', 'twitter']"/>
             </div>
             <div class="social-icons">
-              <a href="instagram:ak.hunzai"/>
               <font-awesome-icon :icon="['fab', 'instagram']"/>
             </div>
           </div>
@@ -74,7 +72,7 @@ html {
   color: #ccc !important;
   transition: 0.3s ease-in-out !important;
 }
-.nav-links {
+.social-links {
   display: flex;
   margin-right: 90px;
   font-size: 1rem;

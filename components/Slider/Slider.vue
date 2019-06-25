@@ -1,25 +1,36 @@
 <template>
   <div>
     <section id="slider">
+      <Snowf
+        :amount="200"
+        :size="4"
+        :speed="1.5"
+        :wind="0"
+        :opacity="0.8"
+        :swing="1"
+        :image="null"
+        :zIndex="null"
+        :resize="null"
+        color="#fff"
+      />
       <b-container>
-        <b-row align-v="center">
+        <b-row align-v="center justify-content-center">
           <b-col md="12">
             <div class="name-text mt-5">
               <div class="heading text-center pt-5">
                 <h2>
-                  I am
-                  <span>Afaq Karim</span>
+                  <vue-typer text="I am Afaq Karim" erase-style="backspace"></vue-typer>
                 </h2>
               </div>
             </div>
           </b-col>
-          <b-col md="6" offset-md="3">
+          <b-col md="6">
             <div class="paragraph text-center mt-5">
-              <h5 class="developer-mark">Web Developer & Graphic Designer</h5>
+              <h5 class="developer-mark">Web Developer & Web Designer</h5>
             </div>
             <div class="chevron mt-5">
               <a href="#about">
-                <div class="icon" href="#about">
+                <div class="icon">
                   <font-awesome-icon :icon="['fas', 'angle-down']"/>
                 </div>
               </a>
@@ -32,10 +43,18 @@
 </template>
 
 <script>
-export default {}
+import Snowf from 'vue-snowf'
+import { VueTyper } from 'vue-typer'
+
+export default {
+  components: {
+    Snowf,
+    VueTyper
+  }
+}
 </script>
 
-<style scoped>
+<style>
 html {
   scroll-behavior: smooth;
 }
@@ -47,8 +66,6 @@ html {
   background-position: center center;
   z-index: 0;
   height: 600px;
-  background-blend-mode: color;
-  background-color: rgba(255, 255, 255, 0.67) !important;
 }
 .name-text .heading h2 {
   margin-top: 3rem;
@@ -70,6 +87,7 @@ html {
 .chevron {
   width: 47px;
   height: 47px;
+  margin: auto;
   background-color: #464646;
   position: relative;
   z-index: 1;
@@ -77,7 +95,7 @@ html {
   border-radius: 50%;
   padding: 0;
   cursor: pointer;
-  margin-left: 240px;
+  text-align: center;
 }
 .chevron:hover {
   transition: 0.7s ease-in-out;
@@ -93,5 +111,21 @@ html {
   line-height: 47px;
   text-align: center;
   color: #fff;
+}
+.vue-typer .custom.char.typed {
+  color: #464646;
+}
+@media (min-width: 350px) and (max-width: 768px) {
+  #slider {
+    height: 500px;
+    margin-top: 30px;
+  }
+  #slider .name-text {
+    margin-top: 2rem !important;
+  }
+  #slider .name-text .heading h2 {
+    margin-top: 0rem !important;
+    font-size: 5rem;
+  }
 }
 </style>

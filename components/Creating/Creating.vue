@@ -136,7 +136,7 @@ html {
   color: #fff;
   transition: all 0.7s;
   padding-left: 5rem;
-  padding-right: 5rem; 
+  padding-right: 5rem;
   border-radius: 0.25rem;
   border: none;
 }
@@ -155,5 +155,18 @@ html {
 .tab-icon {
   font-size: 3rem;
   color: #9e9e9e;
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .nav-tabs .nav-item {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .card-header-pills {
+    margin-right: 0rem;
+  }
+  .nav-pills .nav-link.active {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 </style>

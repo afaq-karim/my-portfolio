@@ -22,7 +22,10 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "nuxt-fontawesome": "^0.4.0",
-    "vue-picture-swipe": "^1.1.0"
+    "save": "^2.4.0",
+    "vue-picture-swipe": "^1.1.0",
+    "vue-snowf": "^0.0.2",
+    "vue-typer": "^1.2.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",

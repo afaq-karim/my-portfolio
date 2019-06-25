@@ -38,7 +38,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/vue-picture-swipe.js', ssr: false }],
+  plugins: [
+    { src: '~/plugins/vue-picture-swipe.js', ssr: false }
+  ],
 
   /*
    ** Nuxt.js modules
