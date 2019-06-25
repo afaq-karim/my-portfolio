@@ -14,12 +14,18 @@
         color="#fff"
       />
       <b-container>
-        <b-row align-v="center justify-content-center">
+        <b-row class="justify-content-center">
           <b-col md="12">
             <div class="name-text mt-5">
               <div class="heading text-center pt-5">
                 <h2>
-                  <vue-typer text="I am Afaq Karim" erase-style="backspace"></vue-typer>
+                  <vue-typer
+                    text="I am Afaq Karim"
+                    erase-style="backspace"
+                    caret-animation="smooth"
+                    :type-delay="100"
+                    :pre-type-delay="100"
+                  ></vue-typer>
                 </h2>
               </div>
             </div>
@@ -60,7 +66,7 @@ html {
 }
 #slider {
   margin-top: 57px;
-  background-image: url('../../assets/images/forest1.jpg');
+  background-image: url(../../assets/images/forest1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -74,13 +80,10 @@ html {
   line-height: 1.2;
   color: #464646;
 }
-.name-text .heading span {
-  font-weight: 400;
-}
 .paragraph h5 {
   font-weight: 700;
   font-size: 1.25rem;
-  padding: 0.4rem 0rem;
+  padding: 0.4rem 0;
   text-transform: uppercase;
   background-color: rgba(248, 192, 67, 0.7);
 }
@@ -124,8 +127,8 @@ html {
     margin-top: 2rem !important;
   }
   #slider .name-text .heading h2 {
-    margin-top: 0rem !important;
-    font-size: 5rem;
+    margin-top: 0 !important;
+    font-size: 4rem;
   }
 }
 </style>
