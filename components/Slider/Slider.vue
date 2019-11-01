@@ -15,7 +15,7 @@
       />
       <b-container>
         <b-row class="justify-content-center">
-          <b-col md="12">
+          <b-col md="12" xs="12">
             <div class="name-text mt-5">
               <div class="heading text-center pt-5">
                 <h2>
@@ -128,7 +128,7 @@ html {
   }
   #slider .name-text .heading h2 {
     margin-top: 0 !important;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 </style>

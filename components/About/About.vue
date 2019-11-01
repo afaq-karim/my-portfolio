@@ -104,4 +104,9 @@ export default {
     0 2px 10px 0 rgba(27, 25, 25, 0.78);
   transition: all 0.55s ease-in-out;
 }
+@media (min-width: 300px) and (max-width: 576px) {
+.card-text {
+  display: inline !important;
+  } 
+}
 </style>

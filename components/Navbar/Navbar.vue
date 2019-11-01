@@ -16,13 +16,13 @@
         <b-nav-item class="ml-auto nav-icons">
           <div class="social-links">
             <div class="social-icons">
-              <font-awesome-icon :icon="['fab', 'facebook-f']"/>
+              <a target="_blank" href="https://facebook.com/feeqo.hunzai"><font-awesome-icon :icon="['fab', 'facebook-f']"/></a>
             </div>
             <div class="social-icons">
-              <font-awesome-icon :icon="['fab', 'twitter']"/>
+              <a target="_blank" href="https://twitter.com/karim_afaq"><font-awesome-icon :icon="['fab', 'twitter']"/></a>
             </div>
             <div class="social-icons">
-              <font-awesome-icon :icon="['fab', 'instagram']"/>
+              <a target="_blank" href="https://instagram.com/ak.hunzai"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
             </div>
           </div>
         </b-nav-item>
@@ -72,7 +72,7 @@ html {
   color: #ccc !important;
   transition: 0.3s ease-in-out !important;
 }
-.social-links {
+.social-links{
   display: flex;
   margin-right: 90px;
   font-size: 1rem;
@@ -83,8 +83,16 @@ html {
 .social-icons {
   padding: 0px 10px;
 }
-.social-icons:hover {
+.social-icons a{
+  color: #fff;
+}
+.social-icons a:hover {
   color: #ccc;
   transition: 0.3s ease-in-out;
+}
+@media (min-width: 300px) and (max-width: 576px) {
+#navbar-nav {
+  margin-left: 20px;
+  }
 }
 </style>

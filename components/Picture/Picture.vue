@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row no-gutters>
-      <b-col md="12" class="mb-5">
+      <b-col class="mb-5">
         <vue-picture-swipe :items="items"></vue-picture-swipe>
       </b-col>
     </b-row>

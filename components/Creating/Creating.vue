@@ -128,7 +128,6 @@ html {
 }
 .card-header-pills {
   margin-left: 3rem;
-  /* margin-right: 0rem; */
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -167,6 +166,17 @@ html {
   .nav-pills .nav-link.active {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .tab-text {
+    display: inline;
+  }
+  .tab-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .tab-icon {
+    font-size: 2rem;
+    margin-right: 1rem !important;
   }
 }
 </style>

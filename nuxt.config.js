@@ -1,3 +1,4 @@
+const builtAt = new Date().toISOString()
 import pkg from './package'
 
 export default {
@@ -11,7 +12,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
+      { name: 'msapplication-TileColor', content: '#ffffff' },
+      { name: 'theme-color', content: '#c1c1c1' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@karim-afaq' },
+      { property: 'og:type', content: 'profile' },
+      { property: 'og:updated_time', content: builtAt }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -28,7 +38,10 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: {
+    color: '#5a46ff',
+    height: '3px'
+  },
 
   /*
    ** Global CSS
