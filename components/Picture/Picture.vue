@@ -1,7 +1,11 @@
 <template>
   <b-container>
     <b-row no-gutters>
+<<<<<<< HEAD
       <b-col class="mb-5">
+=======
+      <b-col md="12" class="mb-5">
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
         <vue-picture-swipe :items="items"></vue-picture-swipe>
       </b-col>
     </b-row>

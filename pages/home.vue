@@ -41,7 +41,10 @@ export default {
 </script>
 
 <style>
+<<<<<<< HEAD
 html{
   scroll-behavior: smooth;
 }
+=======
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 </style>

@@ -19,6 +19,7 @@ $ yarn start
 $ yarn run generate
 ```
 
+<<<<<<< HEAD
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
 
@@ -97,3 +98,10 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)]
+=======
+#Live Here
+
+You can see live here (https://afaqkarim.netlify.com/).
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
