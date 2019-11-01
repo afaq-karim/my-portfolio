@@ -128,7 +128,10 @@ html {
 }
 .card-header-pills {
   margin-left: 3rem;
+<<<<<<< HEAD
+=======
   /* margin-right: 0rem; */
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -136,7 +139,11 @@ html {
   color: #fff;
   transition: all 0.7s;
   padding-left: 5rem;
+<<<<<<< HEAD
+  padding-right: 5rem;
+=======
   padding-right: 5rem; 
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
   border-radius: 0.25rem;
   border: none;
 }
@@ -156,4 +163,31 @@ html {
   font-size: 3rem;
   color: #9e9e9e;
 }
+<<<<<<< HEAD
+@media (min-width: 360px) and (max-width: 768px) {
+  .nav-tabs .nav-item {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .card-header-pills {
+    margin-right: 0rem;
+  }
+  .nav-pills .nav-link.active {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .tab-text {
+    display: inline;
+  }
+  .tab-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .tab-icon {
+    font-size: 2rem;
+    margin-right: 1rem !important;
+  }
+}
+=======
+>>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 </style>
