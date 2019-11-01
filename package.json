@@ -1,12 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "afaq-karim",
   "version": "1.0.0",
   "description": "My pioneering Nuxt.js project",
-<<<<<<< HEAD
   "author": "Afaq Karim",
-=======
-  "author": "Afaq",
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -21,7 +17,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.8.2",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@nuxtjs/axios": "^5.3.6",
-<<<<<<< HEAD
     "@vue/cli": "^3.8.4",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-rc.11",
@@ -33,14 +28,6 @@
     "vue-picture-swipe": "^1.1.0",
     "vue-snowf": "^0.0.2",
     "vue-typer": "^1.2.0"
-=======
-    "bootstrap": "^4.1.3",
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
-    "nuxt-fontawesome": "^0.4.0",
-    "vue-picture-swipe": "^1.1.0"
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
