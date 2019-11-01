@@ -94,10 +94,7 @@ html {
   font-weight: 300;
 }
 .contact-para p {
-<<<<<<< HEAD
   margin-bottom: 5rem;
-=======
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;

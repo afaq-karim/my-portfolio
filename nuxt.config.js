@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 const builtAt = new Date().toISOString()
-=======
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 import pkg from './package'
 
 export default {
@@ -15,7 +12,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-<<<<<<< HEAD
       { hid: 'description', name: 'description', content: pkg.description },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
@@ -26,9 +22,6 @@ export default {
       { name: 'twitter:site', content: '@karim-afaq' },
       { property: 'og:type', content: 'profile' },
       { property: 'og:updated_time', content: builtAt }
-=======
-      { hid: 'description', name: 'description', content: pkg.description }
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -45,14 +38,10 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-<<<<<<< HEAD
   loading: {
     color: '#5a46ff',
     height: '3px'
   },
-=======
-  loading: { color: '#fff' },
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 
   /*
    ** Global CSS
@@ -62,13 +51,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-<<<<<<< HEAD
   plugins: [
     { src: '~/plugins/vue-picture-swipe.js', ssr: false }
   ],
-=======
-  plugins: [{ src: '~/plugins/vue-picture-swipe.js', ssr: false }],
->>>>>>> 9e40c6fa72ad751db32cc143e78559749cebd3aa
 
   /*
    ** Nuxt.js modules
