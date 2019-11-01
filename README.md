@@ -19,4 +19,8 @@ $ yarn start
 $ yarn run generate
 ```
 
+#Live Here
+
+You can see live here (https://afaqkarim.netlify.com/).
+
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
