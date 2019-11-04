@@ -94,4 +94,9 @@ a:hover {
   opacity: .8 !important;
   transition: opacity 0.4s !important;
 }
+@media (min-width: 325px) and (max-width: 576px) {
+  img {
+    width: auto;
+  }
+}
 </style>
