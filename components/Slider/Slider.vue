@@ -128,7 +128,7 @@ html {
   }
   #slider .name-text .heading h2 {
     margin-top: 0 !important;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 </style>
