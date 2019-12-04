@@ -10,7 +10,7 @@
         :swing="1"
         :image="null"
         :zIndex="null"
-        :resize="null"
+        :resize="true"
         color="#fff"
       />
       <b-container>
