@@ -63,6 +63,8 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    // Doc: https://pwa.nuxtjs.org/
+    '@nuxtjs/pwa',
     [
       'nuxt-fontawesome',
       {
@@ -75,9 +77,10 @@ export default {
             set: '@fortawesome/free-brands-svg-icons',
             icons: ['fab']
           }
-        ]
+        ],
       }
-    ]
+    ],
+    ['@nuxtjs/pwa', { icon: false }]
   ],
   /*
    ** Axios module configuration
