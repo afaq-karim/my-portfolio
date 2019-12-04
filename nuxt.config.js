@@ -43,8 +43,6 @@ export default {
   manifest: {
     name: 'Afaq Karim',
     lang: 'en',
-    scope: '/',
-    start_url: './index.html',
     display: 'standalone',
     title: 'Afaq Karim - Front-End Developer',
     'og:title': 'Afaq Karim - Front-End Developer',
