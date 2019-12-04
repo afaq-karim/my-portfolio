@@ -15,6 +15,7 @@ export default {
         {
           id: 1,
           src: '/img63(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img63(1).jpg',
           w: 1200,
           h: 900
@@ -22,6 +23,7 @@ export default {
         {
           id: 2,
           src: '/img66(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img66(1).jpg',
           w: 1200,
           h: 900
@@ -29,6 +31,7 @@ export default {
         {
           id: 3,
           src: '/img65(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img65(1).jpg',
           w: 1200,
           h: 900
@@ -36,6 +39,7 @@ export default {
         {
           id: 4,
           src: '/img67(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img67(1).jpg',
           w: 1200,
           h: 900
@@ -43,6 +47,7 @@ export default {
         {
           id: 5,
           src: '/img68(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img68(1).jpg',
           w: 1200,
           h: 900
@@ -50,6 +55,7 @@ export default {
         {
           id: 6,
           src: '/img64(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img64(1).jpg',
           w: 1200,
           h: 900
@@ -57,6 +63,7 @@ export default {
         {
           id: 7,
           src: '/img69(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img69(1).jpg',
           w: 1200,
           h: 900
@@ -64,6 +71,7 @@ export default {
         {
           id: 8,
           src: '/img59(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img59.jpg',
           w: 1200,
           h: 900
@@ -71,6 +79,7 @@ export default {
         {
           id: 9,
           src: '/img70(1).jpg',
+          alt: 'recent projects',
           thumbnail: '/img70(1).jpg',
           w: 1200,
           h: 900
