@@ -17,6 +17,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.8.2",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/icon": "^3.0.0-beta.16",
     "@nuxtjs/pwa": "^3.0.0-beta.19",
     "@vue/cli": "^3.8.4",
     "bootstrap": "^4.1.3",

@@ -14,7 +14,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+      },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'theme-color', content: '#c1c1c1' },
       { name: 'robots', content: 'index, follow' },
@@ -31,6 +35,58 @@ export default {
         type: 'text/css',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap'
+      }
+    ]
+  },
+  // Adding manifest file
+
+  manifest: {
+    name: 'Afaq Karim',
+    lang: 'en',
+    scope: '/',
+    start_url: './index.html',
+    display: 'standalone',
+    title: 'Afaq Karim - Front-End Developer',
+    'og:title': 'Afaq Karim - Front-End Developer',
+    description: pkg.description,
+    'og:description': pkg.description,
+    theme_color: '#FFFFFF',
+    background_color: '#FFFFFF',
+    short_name: 'AK',
+    icons: [
+      {
+        src: '/192.png',
+        type: 'image/png',
+        sizes: '192x192'
+      },
+      {
+        src: '/512.png',
+        type: 'image/png',
+        sizes: '512x512'
+      }
+    ]
+  },
+  // Worknox
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://fonts.gstatic.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern:
+          'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
       }
     ]
   },
@@ -51,9 +107,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: '~/plugins/vue-picture-swipe.js', ssr: false }
-  ],
+  plugins: [{ src: '~/plugins/vue-picture-swipe.js', ssr: false }],
 
   /*
    ** Nuxt.js modules
@@ -77,10 +131,10 @@ export default {
             set: '@fortawesome/free-brands-svg-icons',
             icons: ['fab']
           }
-        ],
+        ]
       }
     ],
-    ['@nuxtjs/pwa', { icon: false }]
+    ['@nuxtjs/pwa', { icon: true }]
   ],
   /*
    ** Axios module configuration
@@ -96,6 +150,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
+    extend(config, ctx) {}
   }
 }
