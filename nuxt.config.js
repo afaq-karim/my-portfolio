@@ -44,11 +44,12 @@ export default {
     name: 'Afaq Karim',
     lang: 'en',
     display: 'standalone',
+    // start_url: 'https://afaqkarim.netlify.com/',
     title: 'Afaq Karim - Front-End Developer',
     'og:title': 'Afaq Karim - Front-End Developer',
     description: pkg.description,
     'og:description': pkg.description,
-    theme_color: '#FFFFFF',
+    theme_color: '#c1c1c1',
     background_color: '#FFFFFF',
     short_name: 'AK',
     icons: [
