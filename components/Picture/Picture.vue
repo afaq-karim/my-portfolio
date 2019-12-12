@@ -14,75 +14,75 @@ export default {
       items: [
         {
           id: 1,
-          src: '/img63(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg',
           alt: 'recent projects',
-          thumbnail: '/img63(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 2,
-          src: '/img66(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg',
           alt: 'recent projects',
-          thumbnail: '/img66(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 3,
-          src: '/img65(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg',
           alt: 'recent projects',
-          thumbnail: '/img65(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 4,
-          src: '/img67(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg',
           alt: 'recent projects',
-          thumbnail: '/img67(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 5,
-          src: '/img68(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg',
           alt: 'recent projects',
-          thumbnail: '/img68(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 6,
-          src: '/img64(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg',
           alt: 'recent projects',
-          thumbnail: '/img64(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 7,
-          src: '/img69(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg',
           alt: 'recent projects',
-          thumbnail: '/img69(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 8,
-          src: '/img59(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg',
           alt: 'recent projects',
-          thumbnail: '/img59.jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg',
+          w: 1600,
+          h: 1067
         },
         {
           id: 9,
-          src: '/img70(1).jpg',
+          src: 'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(70).jpg',
           alt: 'recent projects',
-          thumbnail: '/img70(1).jpg',
-          w: 1200,
-          h: 900
+          thumbnail: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg',
+          w: 1600,
+          h: 1067
         }
       ]
     }

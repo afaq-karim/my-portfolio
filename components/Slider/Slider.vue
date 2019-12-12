@@ -66,7 +66,7 @@ html {
 }
 #slider {
   margin-top: 57px;
-  background-image: url(../../assets/images/forest1.jpg);
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/forest1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
