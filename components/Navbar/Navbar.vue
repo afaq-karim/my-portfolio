@@ -7,22 +7,38 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav id="navbar-nav">
-          <b-nav-item class="nav-item" href="#slider">{{listItems[0]}}</b-nav-item>
-          <b-nav-item class="nav-item" href="#about">{{listItems[1]}}</b-nav-item>
-          <b-nav-item class="nav-item" href="#skills">{{listItems[2]}}</b-nav-item>
-          <b-nav-item class="nav-item" href="#project">{{listItems[3]}}</b-nav-item>
-          <b-nav-item class="nav-item" href="#contact">{{listItems[4]}}</b-nav-item>
+          <b-nav-item class="nav-item" href="#slider">{{
+            listItems[0]
+          }}</b-nav-item>
+          <b-nav-item class="nav-item" href="#about">{{
+            listItems[1]
+          }}</b-nav-item>
+          <b-nav-item class="nav-item" href="#skills">{{
+            listItems[2]
+          }}</b-nav-item>
+          <b-nav-item class="nav-item" href="#project">{{
+            listItems[3]
+          }}</b-nav-item>
+          <b-nav-item class="nav-item" href="#contact">{{
+            listItems[4]
+          }}</b-nav-item>
         </b-navbar-nav>
         <b-nav-item class="ml-auto nav-icons">
           <div class="social-links">
             <div class="social-icons">
-              <a target="_blank" href="#"><font-awesome-icon :icon="['fab', 'facebook-f']"/></a>
+              <a target="_blank" href=""
+                ><font-awesome-icon :icon="['fab', 'facebook-f']"
+              /></a>
             </div>
             <div class="social-icons">
-              <a target="_blank" href="#"><font-awesome-icon :icon="['fab', 'twitter']"/></a>
+              <NuxtLink to="https://twitter.com/karim_afaq target">
+                <font-awesome-icon :icon="['fab', 'twitter']" />
+              </NuxtLink>
             </div>
             <div class="social-icons">
-              <a target="_blank" href="#"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
+              <a target="_blank" href="#"
+                ><font-awesome-icon :icon="['fab', 'instagram']"
+              /></a>
             </div>
           </div>
         </b-nav-item>
@@ -72,7 +88,7 @@ html {
   color: #ccc !important;
   transition: 0.3s ease-in-out !important;
 }
-.social-links{
+.social-links {
   display: flex;
   margin-right: 90px;
   font-size: 1rem;
@@ -83,7 +99,7 @@ html {
 .social-icons {
   padding: 0px 10px;
 }
-.social-icons a{
+.social-icons a {
   color: #fff;
 }
 .social-icons a:hover {
@@ -91,8 +107,8 @@ html {
   transition: 0.3s ease-in-out;
 }
 @media (min-width: 300px) and (max-width: 576px) {
-#navbar-nav {
-  margin-left: 20px;
+  #navbar-nav {
+    margin-left: 20px;
   }
 }
 </style>
