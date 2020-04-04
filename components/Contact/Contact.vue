@@ -4,7 +4,7 @@
       <b-container>
         <b-row>
           <b-col md="10" offset-md="1">
-            <hr class="pb-5">
+            <hr class="pb-5" />
             <div class="contact-heading text-uppercase text-center mt-5 mb-5">
               <h2>
                 Contact
@@ -13,9 +13,10 @@
             </div>
             <div class="contact-para">
               <p>
-                Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis
-                totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+                error amet numquam iure provident voluptate esse quasi,
+                veritatis totam voluptas nostrum quisquam eum porro a pariatur
+                accusamus veniam.
               </p>
             </div>
           </b-col>
@@ -26,26 +27,42 @@
               <b-form-row>
                 <b-col>
                   <b-form-group label="Your name" id="form-label">
-                    <b-form-input type="text" required id="form-input"></b-form-input>
+                    <b-form-input
+                      type="text"
+                      required
+                      id="form-input"
+                    ></b-form-input>
                   </b-form-group>
                 </b-col>
                 <b-col>
                   <b-form-group label="Your email" id="form-label">
-                    <b-form-input type="email" required id="form-input"></b-form-input>
+                    <b-form-input
+                      type="email"
+                      required
+                      id="form-input"
+                    ></b-form-input>
                   </b-form-group>
                 </b-col>
               </b-form-row>
               <b-form-row>
                 <b-col>
                   <b-form-group label="Subject" id="form-label">
-                    <b-form-input type="text" required id="form-input"></b-form-input>
+                    <b-form-input
+                      type="text"
+                      required
+                      id="form-input"
+                    ></b-form-input>
                   </b-form-group>
                 </b-col>
               </b-form-row>
               <b-form-row>
                 <b-col>
                   <b-form-group label="Your message" id="form-label">
-                    <b-form-textarea type="text" required id="form-input"></b-form-textarea>
+                    <b-form-textarea
+                      type="text"
+                      required
+                      id="form-input"
+                    ></b-form-textarea>
                   </b-form-group>
                 </b-col>
               </b-form-row>
@@ -57,16 +74,25 @@
           <b-col md="4">
             <div class="contact-icon">
               <div class="map text-center">
-                <font-awesome-icon class="contact-icons" :icon="['fas', 'map-marker-alt']"/>
-                <p>New York, NY 10012, USA</p>
+                <font-awesome-icon
+                  class="contact-icons"
+                  :icon="['fas', 'map-marker-alt']"
+                />
+                <p>GILGIT, GILGIT GPO 15100, PK</p>
               </div>
               <div class="phone text-center">
-                <font-awesome-icon class="contact-icons" :icon="['fas', 'phone']"/>
+                <font-awesome-icon
+                  class="contact-icons"
+                  :icon="['fas', 'phone']"
+                />
                 <p>+01 234 567 89</p>
               </div>
               <div class="envelope text-center">
-                <font-awesome-icon class="contact-icons" :icon="['fas', 'envelope']"/>
-                <p>contact@example.com</p>
+                <font-awesome-icon
+                  class="contact-icons"
+                  :icon="['fas', 'envelope']"
+                />
+                <p>ashfaqhunzai15@gmail.com</p>
               </div>
             </div>
           </b-col>

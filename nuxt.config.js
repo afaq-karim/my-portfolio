@@ -1,4 +1,5 @@
 const builtAt = new Date().toISOString()
+
 import pkg from './package'
 
 export default {
@@ -149,6 +150,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 }
