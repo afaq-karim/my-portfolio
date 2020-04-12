@@ -18,7 +18,7 @@
         <div class="social-links ml-auto nav-icons">
           <div class="social-icons">
             <a
-              href="http://facebook.com/afaq-karim"
+              href="https://www.facebook.com/feeqo.hunza1"
               target="_blank"
               rel="noopener noreferrer"
               ><font-awesome-icon :icon="['fab', 'facebook-f']"
