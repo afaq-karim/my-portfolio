@@ -7,54 +7,68 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav id="navbar-nav">
-          <b-nav-item class="nav-item" href="#slider">{{
-            listItems[0]
-          }}</b-nav-item>
-          <b-nav-item class="nav-item" href="#about">{{
-            listItems[1]
-          }}</b-nav-item>
-          <b-nav-item class="nav-item" href="#skills">{{
-            listItems[2]
-          }}</b-nav-item>
-          <b-nav-item class="nav-item" href="#project">{{
-            listItems[3]
-          }}</b-nav-item>
-          <b-nav-item class="nav-item" href="#contact">{{
-            listItems[4]
-          }}</b-nav-item>
+          <b-nav-item
+            class="nav-item"
+            v-for="(item, index) in listItems"
+            :href="item.href"
+            :key="index"
+            >{{ item.link }}</b-nav-item
+          >
         </b-navbar-nav>
-        <b-nav-item class="ml-auto nav-icons">
-          <div class="social-links">
-            <div class="social-icons">
-              <a target="_blank" href=""
-                ><font-awesome-icon :icon="['fab', 'facebook-f']"
-              /></a>
-            </div>
-            <div class="social-icons">
-              <NuxtLink to="https://twitter.com/karim_afaq target">
-                <font-awesome-icon :icon="['fab', 'twitter']" />
-              </NuxtLink>
-            </div>
-            <div class="social-icons">
-              <a target="_blank" href="#"
-                ><font-awesome-icon :icon="['fab', 'instagram']"
-              /></a>
-            </div>
+        <div class="social-links ml-auto nav-icons">
+          <div class="social-icons">
+            <a
+              href="http://facebook.com/afaq-karim"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><font-awesome-icon :icon="['fab', 'facebook-f']"
+            /></a>
           </div>
-        </b-nav-item>
+          <div class="social-icons">
+            <a
+              href="http://twitter.com/karim_afaq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <font-awesome-icon :icon="['fab', 'twitter']" />
+            </a>
+          </div>
+          <div class="social-icons">
+            <a
+              href="http://instagram.com/ak.hunzai"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><font-awesome-icon :icon="['fab', 'instagram']"
+            /></a>
+          </div>
+        </div>
       </b-collapse>
     </b-navbar>
   </header>
 </template>
 <script>
-import { listItems, brand } from '@/data/index.js'
 export default {
-  computed: {
-    brand() {
-      return brand.name
-    },
-    listItems() {
-      return listItems.navbar
+  data() {
+    return {
+      brand: 'AK',
+      listItems: [
+        {
+          link: 'Home',
+          href: '#slider'
+        },
+        {
+          link: 'About',
+          href: '#about'
+        },
+        {
+          link: 'Works',
+          href: '#project'
+        },
+        {
+          link: 'Contact',
+          href: '#contact'
+        }
+      ]
     }
   }
 }
