@@ -85,7 +85,7 @@
                   class="contact-icons"
                   :icon="['fas', 'phone']"
                 />
-                <p>+01 234 567 89</p>
+                <p>+92 3456469744</p>
               </div>
               <div class="envelope text-center">
                 <font-awesome-icon
