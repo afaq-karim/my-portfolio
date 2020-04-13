@@ -18,7 +18,7 @@
         <div class="social-links ml-auto nav-icons">
           <div class="social-icons">
             <a
-              href="http://facebook.com/afaq-karim"
+              href="https://www.facebook.com/feeqo.hunza1"
               target="_blank"
               rel="noopener noreferrer"
               ><font-awesome-icon :icon="['fab', 'facebook-f']"
@@ -122,6 +122,9 @@ html {
 }
 @media (min-width: 300px) and (max-width: 576px) {
   #navbar-nav {
+    margin-left: 20px;
+  }
+  .social-links {
     margin-left: 20px;
   }
 }
