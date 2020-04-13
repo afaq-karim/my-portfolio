@@ -150,6 +150,36 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
+    extractCSS: true,
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          styles: {
+            name: 'styles',
+            test: /\.(css|vue)$/,
+            chunks: 'all',
+            enforce: true
+          }
+        }
+      }
+    },
+    filenames: {
+      chunk: ({ isDev }) => isDev ? '[name].js' : '[id].[contenthash].js',
+      app: ({ isDev }) => isDev ? '[name].js' : '[contenthash].js',
+      css: ({ isDev }) => isDev ? '[name].css' : '[contenthash].css',
+      img: ({ isDev }) => isDev ? '[path][name].[ext]' : 'img/[contenthash:7].[ext]',
+      font: ({ isDev }) => isDev ? '[path][name].[ext]' : 'fonts/[contenthash:7].[ext]',
+    },
+    minimize: true,
+    minimizer: [
+      // terser-webpack-plugin
+      // optimize-css-assets-webpack-plugin
+    ],
+    splitChunks: {
+      chunks: 'all',
+      automaticNameDelimiter: '.',
+      name: undefined,
+      cacheGroups: {}
+    }
   }
 }
