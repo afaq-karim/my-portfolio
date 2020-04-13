@@ -124,5 +124,8 @@ html {
   #navbar-nav {
     margin-left: 20px;
   }
+  .social-links {
+    margin-left: 20px;
+  }
 }
 </style>
