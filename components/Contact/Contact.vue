@@ -85,14 +85,14 @@
                   class="contact-icons"
                   :icon="['fas', 'phone']"
                 />
-                <p>+92 3456469744</p>
+                <p>+92 3456798543</p>
               </div>
               <div class="envelope text-center">
                 <font-awesome-icon
                   class="contact-icons"
                   :icon="['fas', 'envelope']"
                 />
-                <p>ashfaqhunzai15@gmail.com</p>
+                <p>someone@example.com</p>
               </div>
             </div>
           </b-col>
