@@ -60,7 +60,7 @@ const jsonLd = {
   url: site.url,
   image: `${site.url}/images/afaq.jpg`,
   address: { "@type": "PostalAddress", addressLocality: "Gilgit", addressCountry: "PK" },
-  sameAs: Object.values(site.socials),
+  sameAs: [...Object.values(site.socials), site.upwork],
   knowsAbout: ["React", "Next.js", "Vue.js", "Node.js", "NestJS", "React Native", "AWS", "Kubernetes", "AI agents"],
 };
 

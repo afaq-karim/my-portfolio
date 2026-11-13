@@ -14,7 +14,60 @@ export const site = {
     github: "https://github.com/afaq-karim",
     x: "https://x.com/karim_afaq",
   },
+  upwork: "https://www.upwork.com/freelancers/~0132d7ad009fd790a8",
 };
+
+export const upworkStats = [
+  { value: "100%", label: "Job success" },
+  { value: "5.0", label: "Avg. rating" },
+  { value: "11", label: "Jobs" },
+  { value: "870+", label: "Hours" },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Thrilled with the outstanding work delivered by Afaq during software frontend and backend development contract. His exceptional technical skills, combined with his proactive approach and strong work ethic, resulted in the successful completion of our project well before the timeline. Afaq demonstrated a deep understanding of our requirements and consistently provided innovative solutions to complex challenges. His clear communication and collaborative nature made them invaluable. I highly recommend Afaq to anyone seeking a skilled and dedicated software engineer.",
+    name: "Rehan A.",
+    project: "Stripe payments with Nuxt & FastAPI",
+    date: "Feb 2024",
+  },
+  {
+    quote:
+      "Working with Afaq was a smooth and professional experience. He consistently delivered well-crafted full-stack solutions on schedule, maintained clear and proactive communication throughout, and was responsive to feedback. I'd definitely recommend him and look forward to collaborating again in the future.",
+    name: "Upwork client",
+    project: "Full-stack development contract",
+    date: "Apr 2025",
+  },
+  {
+    quote:
+      "Afaq helps us to build our MVP and we are really thankfully for that. He build a nice product with all of his skills and give us good feedback and nice solutions for our problems. Thank you!",
+    name: "Adrian S.",
+    project: "AI-first CRM MVP with Fireflies integration",
+    date: "Mar 2026",
+  },
+  {
+    quote:
+      "Great, diligent, and timely completion of tasks. Have collaborated for a few years and never regretted the choice of the contractor!",
+    name: "Michael H.",
+    project: "Long-term contract",
+    date: "Upwork",
+  },
+  {
+    quote:
+      "Great freelancer, very attentive and helpful. Completed all tickets to our complete satisfaction and on time. Highly recommended!!!",
+    name: "Socorro G.",
+    project: "Next.js developer with AI experience",
+    date: "Nov 2024",
+  },
+  {
+    quote:
+      "Afaq did an amazing job configuring DNS and smoothly managing the transition between hosting providers. Highly recommended!",
+    name: "Muhammad F.",
+    project: "DNS & hosting migration",
+    date: "Feb 2025",
+  },
+];
 
 export const stats = [
   { value: "8+", label: "Years shipping production software" },
