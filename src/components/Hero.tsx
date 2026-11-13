@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MapPin, Star } from "lucide-react";
 import { site, stats, clients } from "@/data/site";
 import { Reveal } from "./Reveal";
 
@@ -56,6 +56,17 @@ export function Hero() {
                 <ArrowUpRight className="size-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
             </div>
+            <a
+              href={site.upwork}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 text-sm text-stone-400 transition hover:text-white"
+            >
+              <Star className="size-4 fill-accent text-accent" />
+              <span>
+                <span className="text-stone-200">5.0</span> · Top Rated on Upwork · 100% Job Success
+              </span>
+            </a>
           </Reveal>
 
           <Reveal delay={0.15} className="hidden lg:block">
